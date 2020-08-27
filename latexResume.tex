@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\usepackage[left=0.5in,top=0.3in,right=0.5in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Nathaniel Wesley} % Your name
+% \address{B-1 \\ II , U.P. 208016} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional)
+\address{nathanswesley@gmail.com | www.linkedin.com/in/n-wes | (702) 305-0180}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Southern Methodist University} \hfill {\em May 2022}
+\\ B.S. Computer Science and B.S. Statistical Science \hfill { Overall GPA: 3.5/4.0}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+    \begin{rSubsection}{Lyle School of Engineering}{January 2020 - Present}{Robotics Teacher's Assistant}{}
+        \item Mentored 60+ students in Arduino programming, mechanical design, and project management
+        \item Maintain Arduino libraries and documentation used by students to control robot movements and sensors
+    \end{rSubsection}
+    
+    \begin{rSubsection}{AT\&T}{June - August 2020}{Software Engineering Intern}{}
+        \item Created interfaces and APIs using React and Java Spring Boot for internal project management tools
+        \item Collaborated with 5 interns to create TurnUp, a web-application to assess the probability of employees contracting COVID-19 and track employee presence to prevent overcrowding of buildings
+        \item Full-stack developer and software architect for TurnUp, using MongoDB, Express, Node, and React
+    \end{rSubsection}
+
+    \begin{rSubsection}{ANI Networks}{May - August 2019}{Software Engineering Intern}{}
+        \item Developed a web-app to manage employee purchase orders using ASP.NET
+        \item Designed database schemas for storing employee purchasing data in Microsoft SQL Server
+        \item Used C\# and SQL to create automatic email notifications and find data anomalies
+    \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK AND EXTRACURRICULARS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects \& Extracurriculars}
+    \begin{rSubsection}{HackSMU}{August 2019 - Present}{Hackathon Director and Club President}{}
+        \item Lead organizer for SMU's annual hackathon, attracting 100+ students 
+        \item Hosted weekly meetings with a team of six organizers to plan hackathon budget, logistics, and promotion
+        \item Managed \$8,000 club budget for hackathon and club events
+        \item Created python scripts to clean and analyze hackathon participant demographic data
+    \end{rSubsection}
+    
+    \begin{rSubsection}{Deforestation Identifier}{}{}{}
+        \item Developed a machine learning solution to detect deforested areas using satellite images with OpenCV and Scikit-Learn
+        \item Used python to analyze labeled image data and optimize an image classifier
+    \end{rSubsection}
+
+    \begin{rSubsection}{Urban Dictionary Extension}{}{}{}
+        \item Created a chrome extension to search for Urban Dictionary definitions
+    \end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Skills}
+    \begin{rSubsection}{}{}{}{}
+        \item Programming: Python (Pandas, OpenCV, Scikit-Learn), JavaScript (Node, React, Express), C/C++, C\# (.NET), Java (Spring Boot)
+        \item Tools: Git, Database (MySQL, MongoDB, MS SQL), Design (HTML, CSS, Figma, Wordpress)
+        \item Languages: English, Indonesian
+    \end{rSubsection}
+\end{rSection}
+
+\end{document}
