@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\usepackage[left=0.5in,top=0.3in,right=0.5in,bottom=0.6in]{geometry} % Document margins
+\setlength{\parskip}{0.25em}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Nathan Wesley}
+\address{nathanswesley@gmail.com --- (702) 305-0180}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+    \begin{rSubsection}{Microsoft - Azure Core}{July 2022 - Present}{Software Engineer}{}
+        \item Own tooling tracking 200+ Azure products and 20,000+ internal services across all 70+ regions and sovereign clouds
+        \item Leading end-to-end implementation of product metadata system, automating manual attestation and approval workflows
+        \item Built data pipelines to collect and transform telemetry from Azure's physical capacity buildout lifecycle
+        \item Publish telemetry data consumed by partner teams for capacity forecasting and data center management
+    \end{rSubsection}
+
+    \begin{rSubsection}{Headstorm}{May - August 2021}{Software Engineering Intern}{}
+        \item Built handwriting parser for agriculture loan documents; cut average processing time 60\%
+        \item Contributed to Foundry UI, an open-source React/React Native component library
+    \end{rSubsection}
+
+    \begin{rSubsection}{AT\&T}{June - August 2020}{Software Engineering Intern}{}
+        \item Designed and built COVID-19 employee check-in app using Figma and React Native to track affected staff during the pandemic
+        \item Created React + Spring Boot interfaces and APIs for internal project management tools
+    \end{rSubsection}
+
+    \begin{rSubsection}{ANI Networks}{May - August 2019}{Software Engineering Intern}{}
+        \item Led project to build a .NET web app used by 100+ employees for office accommodation requests
+        \item Conducted cross-company case study to define requirements, functionality, and UX
+    \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+    \begin{rSubsection}{moody --- bipolar mood tracker}{2026}{iOS App --- Live on App Store}{}
+        \item Solo-built iOS app (Swift, SwiftUI, SwiftData) for bipolar disorder management, published on App Store
+        \item Features daily mood/sleep/medication logging, insights engine with correlation detection, and PDF export for clinicians
+        \item Privacy-first architecture --- zero data collection, all data on-device. Free, no ads, no subscriptions
+    \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+    {\bf Southern Methodist University} \hfill {\em May 2022}
+    \\ B.A. Computer Science
+
+    \begin{rSubsection}{HackSMU}{August 2019 - May 2022}{Director \& Club President}{}
+        \item Led SMU's annual hackathon, raising over \$20,000 in funding
+        \item Secured dozens of corporate sponsors, leading to student hires at Dallas companies
+        \item Partnered with companies to host student workshops on software engineering disciplines, interview preparation, and job search strategies
+    \end{rSubsection}
+
+    \begin{rSubsection}{Lyle School of Engineering}{January 2020 - May 2022}{Robotics Teaching Assistant}{}
+        \item Taught Arduino programming, sensor calibration, and autonomous pathfinding for semester-long robotics competition
+    \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	OTHER SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Other}
+    \textbf{Programming:} C\# (.NET Core), SQL, KQL (Kusto), JavaScript/TypeScript (Node, React, Angular), Swift
+    \\ \textbf{Tools:} Azure Functions, Kubernetes, Azure Data Explorer, Docker, Azure DevOps, Git, Linux, Figma
+    \\ \textbf{Languages:} English (Native), Indonesian (Native)
+    \\ \textbf{Volunteer:} Lead Volunteer, ROOTS Young Adult Shelter, Seattle. Raised over \$5,000 through Microsoft's volunteer time-matching program
+\end{rSection}
+
+\end{document}
